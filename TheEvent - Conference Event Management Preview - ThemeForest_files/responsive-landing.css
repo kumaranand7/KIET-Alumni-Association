@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1580px){
+	#mobile-header{
+		display:none;	
+	}
+}
+
+/*
+=================================================
+				UP FROM 1366PX
+=================================================
+*/ 
+@media (max-width: 1366px) {
+ 	.kf_event_header_2{
+		position:relative !important;	
+	}
+	.kf_layout{
+		height:440px;	
+	}
+	.kf_layout.layout_02{
+		height:520px;	
+	}
+	.layout_01{
+		left:-580px;	
+	}
+	.layout_03{
+		right:-580px;	
+	}
+}
+
+/*
+=================================================
+				UP FROM 1200PX
+=================================================
+*/ 
+@media (min-width: 1200px) and (max-width: 1280px) {
+ 	.kf_event_header_2{
+		position:relative;	
+	}
+	.kf_layout{
+		height:440px;	
+	}
+	.kf_layout.layout_02{
+		height:520px;	
+	}
+	.layout_01{
+		left:-580px;	
+	}
+	.layout_03{
+		right:-580px;	
+	}
+}
+/*
+=================================================
+			FROM 992PX TO 1199PX
+=================================================
+*/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+	.kf_demo_wrap{
+		padding:39px;
+		background-size:100%;
+		margin:0px;	
+	}
+	#mobile-header{
+		display:none;	
+	}
+	.kf_event_header_2{
+		position:relative;	
+	}
+	.kf_pet_navigation{
+		display:none;	
+	}
+	.kf_layout{
+		height:320px;	
+	}
+	.kf_layout.layout_02{
+		height:380px;	
+	}
+	.kf_landing_banner{
+		min-height:480px;	
+	}
+	.layout_01{
+		left:-436px;	
+	}
+	.layout_03{
+		right:-440px;	
+	}
+}
+/*
+=================================================
+			FROM 0PX TO 979PX
+=================================================
+*/ 
+@media (max-width: 991px) {
+	
+}
+/*
+=================================================
+			FROM 768PX TO 979PX
+=================================================
+*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.kf_pet_navigation{
+		display:none;	
+	}
+	.kf_demo_wrap{
+		background-size:auto;	
+	}
+	.kf_event_header_2{
+		position:relative;	
+	}
+	.kf_landing_banner{
+		display:none;	
+	}
+	#mobile-header{
+		display:none;	
+	}
+	.kf_pet_logo_nav{
+		background-color:rgba(0, 0, 0, 0.8);	
+	}
+  
+}
+/*
+=================================================
+			FROM 0PX TO 767PX
+=================================================
+*/
+@media (max-width: 767px) {
+	.kf_pet_navigation{
+		display:none;	
+	}
+	.kf_event_header_2{
+		position:relative;	
+	}
+	#mobile-header{
+		display:none;	
+	}
+	.kf_landing_banner{
+		display:none;	
+	}
+	.kf_demo_wrap{
+		background-size:auto;	
+	}
+	.kf_demo_list h4{
+		font-size:25px;	
+	}
+}
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (max-width: 480px) {
+	.kf_demo_wrap{
+		background-size:100%;
+		padding:42px;
+		margin:0px;	
+	}
+	.kf_demo_outer_wrap{
+		margin:0px;	
+	}
+	.kf_demo_list h4{
+		font-size:20px;	
+	}
+}
+
